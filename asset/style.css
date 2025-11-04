@@ -1,0 +1,205 @@
+@media screen and (max-width: 600px) {
+
+           .artikel,.wdhblog,.articlePlace,.barfoot,article,.barhead,.navtop {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            .barhead img{
+                width: 30px;
+                margin-left: 20%;
+            }
+            .navtop{
+                float: none;
+                font-size: 10px;
+            }
+            .barhead h2{
+                display: none;
+            }
+            .wdhblog img{
+                width: 150px;
+                float: none;
+                margin-left: 20%;
+            }
+            .wdhblog h4{
+                width: auto;
+                float: none;
+                font-size: 20px;
+                margin-left: 20%;
+            }
+            .wdhblog p {
+                width: auto;
+                float: none;
+                font-size: 16px;
+                margin-left: 20%;
+            }
+            .wdhblog .btnread {
+                float: none;
+                font-size: 16px;
+                margin-left: 20%;
+            }
+            .biodata{
+                margin-left: 10%;
+                width:220px;
+                font-size: 12px;
+            }
+            .biodata h3{
+                font-size: 16px;
+            }
+            .biodata img{
+                width: 90px;
+            }
+            .barfoot{
+                margin: 0;
+            }
+        }
+*{
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}    
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/dewname.png);
+    background-size: 100% 100%;
+}
+.padhead{
+    position: fixed;
+    top: 0;
+    background-color: #171717;
+    overflow: hidden;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    
+}
+.barhead {
+    margin: 10px -20px 0 50px;
+}
+.barhead h2 {
+    font-size: 32px;
+    display: inline;
+    margin: 1%;
+}
+.barhead img {
+    float: left;
+    border-radius: 30px;
+    margin-top: -5px;
+    width: 50px;
+}
+.navtop{
+    float: right;
+    display: inline;
+    margin-right: 120px;
+}
+.navtop a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    color: #fff;
+}
+.navtop a:hover{
+    background-color: #fff;
+    color: #171717;
+    border-radius: 10px;
+}
+.active{
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
+.navtop a.active{
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
+.articlePlace{
+    height: auto;
+    width: 100%;
+}
+.artikel{
+    margin: 10px 60px 0 60px;
+    padding: 10px;
+    color: #171717;
+    background-color: rgba(238, 238, 238, 1);
+    box-shadow: 0 5px 15px 0 rgba(283, 238,238,0.5);
+    height: auto;
+}
+.wdhblog{
+    position: static;
+    margin:2%;
+    overflow: auto;
+    display: none;
+}
+.wdhblog img{
+    float: left;
+    width: 300px;
+    margin:2%;
+}
+.wdhblog h4{
+    float: right;
+    width: 700px;
+    font-size: 24px;
+}
+.wdhblog p{
+    float: right;
+    width: 700px;
+    font-size: 20px;
+}
+.wdhblog .btnread{
+    float: right;
+    margin:5%;
+}
+.wdhp {
+    margin:30px;
+    clear: both;
+}
+.btnread{
+    background-color:rgba(238, 238, 238, 1) ;
+    font-size: 20px;
+    padding: 16px;
+    border:none;
+    border-bottom: 1px solid #171717;
+}
+.btnread:hover{
+    background-color: #171717;
+    color: #fff;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.biodata{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    padding: 20px;
+    text-align: center;
+    width: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
+}
+.biodata img{
+    display: block;
+    width: 130px;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.biodata table{
+    border-spacing: 10px;
+}
+.biodata h3{
+    font-size: 24px;
+}
+.padfoot{
+    padding: 5px;
+    background-color: #171717;
+    overflow: hidden;
+}
+.barfoot {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    margin: 10px -20px 0 50px;
+}
+footer{
+    text-align: center;
+}
